@@ -7,10 +7,18 @@ const cartSlice = createSlice({
     },
     reducers:{
         addItem(state,action){
-            state.items.push(action.payload);
+            const newItem = action.payload;
+            const existingItem = state.items.find(
+                (item) => item.card.info.id === newItem.card.info.id
+            );
+            if(existingItem){
+                alert("Item already in cart if you want to increase quantity, please do so in cart");
+            }else{
+                state.items.push(newItem);
+            }
         },
         removeItem(state,action){
-            state.items = state.items.filter(item => item.id !== action.payload);
+            state.items = state.items.filter(item => item.card.info.id !== action.payload);
         },
         clearCart(state){
             state.items.length = 0;
