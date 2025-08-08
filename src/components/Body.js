@@ -1,8 +1,8 @@
-import useOnlineStatus from "../utils/useOnlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 import Card, {vegCard} from "./Card";
 import ShimmerUi from "./Shimmer";
 import { Link } from "react-router-dom";
-import useBody from "../utils/useBody";
+import useBody from "../hooks/useBody";
 const Body = ()=> {
     const {resListR, filterR, setFilterR, searchText, setSearchText} = useBody();
     

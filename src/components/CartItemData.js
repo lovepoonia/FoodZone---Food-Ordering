@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { CDN_URL } from "../utils/contants";
-import { removeItem } from "../utils/cartSlice";
+import { removeItem } from "../store/cartSlice";
 import { useState } from "react";
 
 const CartItemData = ({item}) => {

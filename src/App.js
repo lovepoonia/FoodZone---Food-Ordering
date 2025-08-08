@@ -10,7 +10,7 @@ import UserContext from "./utils/UserContext";
 import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { Provider } from "react-redux";
-import appStore from "./utils/appStore";
+import appStore from "./store/appStore";
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 const Grocery = lazy(()=> import("./components/Grocery"))
