@@ -29,85 +29,77 @@
 ---
 
 ## 📂 Project Structure
+```plaintext
 src/
 │
 ├── components/
-│ ├── Header.js
-│ ├── Footer.js
-│ ├── Body.js
-│ ├── RestaurantCard.js
-│ ├── RestaurantMenu.js
-│ ├── RestaurantCategories.js
-│ ├── Cart.js
-│ ├── Login.js
-│ ├── Contact.js
-│ ├── AboutUs.js
-│ ├── Shimmer.js
+│   ├── Header.js
+│   ├── Footer.js
+│   ├── Body.js
+│   ├── RestaurantCard.js
+│   ├── RestaurantMenu.js
+│   ├── RestaurantCategories.js
+│   ├── Cart.js
+│   ├── Login.js
+│   ├── Contact.js
+│   ├── AboutUs.js
+│   ├── Shimmer.js
 │
 ├── hooks/
-│ ├── useBody.js
-│ ├── useOnlineStatus.js
-│ ├── useRestaurantMenu.js
+│   ├── useBody.js
+│   ├── useOnlineStatus.js
+│   ├── useRestaurantMenu.js
 │
 ├── store/
-│ ├── appStore.js
-│ ├── cartSlice.js
+│   ├── appStore.js
+│   ├── cartSlice.js
 │
 ├── utils/
-│ ├── UserContext.js
-│ ├── constants.js
+│   ├── UserContext.js
+│   ├── constants.js
 │
 ├── App.js
-├── index.js
+└── index.js
 
 
 ---
 
 ## 🚀 Installation & Setup
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/lovepoonia/FoodZone---Food-Ordering.git
-   cd FoodZone---Food-Ordering
-## 🚀 Installation & Setup
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/lovepoonia/FoodZone---Food-Ordering.git
-   cd FoodZone---Food-Ordering
-Install dependencies
-npm install
-Start development server
 
-npm start
-Open in browser
-http://localhost:1234
-🛠 How to Enable CORS for Local Development
+**Clone the repository**
+   ```bash
+   git clone https://github.com/lovepoonia/FoodZone---Food-Ordering.git
+   cd FoodZone---Food-Ordering
+   npm install
+   npm start
+   http://localhost:1234
+
+## 🛠 How to Enable CORS for Local Development
+
 Swiggy API has CORS restrictions, so you need a workaround for local testing.
 
-Option 1 – Use a Browser Extension
-For Chrome:
+**Option 1 – Use a Browser Extension**
 
-Install Allow CORS: Access-Control-Allow-Origin
+### For Chrome:
+- Install [Allow CORS: Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/).
+- Enable it only during development.
 
-Click Add to Chrome and enable it.
+### For Firefox:
+- Install [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/).
+- Enable it only during local testing.
 
-Important: Keep it enabled only during development.
+---
 
-For Firefox:
+## 📌 Future Improvements
+- 🛒 Add cart & checkout functionality
+- 🔐 Add grocery ordering
+- ⭐ Add restaurant reviews & ratings
+- 📍 Integrate location-based search
 
-Install CORS Everywhere
+---
 
-Enable when testing locally.
+## 🤝 Connect with Me
+- **GitHub:** [@lovepoonia](https://github.com/lovepoonia)  
+- **LinkedIn:** [Love Poonia](https://www.linkedin.com/in/love-poonia)
 
-📌 Future Improvements
-🛒 Add cart & checkout functionality
 
-🔐 Add grocery ordering
-
-⭐ Add restaurant reviews & ratings
-
-📍 Integrate location-based search
-
-🤝 Connect with Me
-GitHub: @lovepoonia
-
-LinkedIn: Love Poonia
