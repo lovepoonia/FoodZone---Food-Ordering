@@ -21,7 +21,7 @@ const Footer = () => {
             <li><Link to="/" className="hover:underline">Home</Link></li>
             <li><Link to="/grocery" className="hover:underline">Grocery</Link></li>
             <li><Link to="/about" className="hover:underline">About Us</Link></li>
-            <li><Link to="/offers" className="hover:underline">Offers</Link></li>
+            <li><Link to="" className="hover:underline">Offers</Link></li>
           </ul>
         </div>
 
@@ -30,9 +30,9 @@ const Footer = () => {
           <h2 className="font-semibold text-lg mb-2">Support</h2>
           <ul className="text-sm text-gray-300 space-y-1">
             <li><Link to="/contact" className="hover:underline">Contact Us</Link></li>
-            <li><Link to="/faq" className="hover:underline">FAQ</Link></li>
-            <li><Link to="/help" className="hover:underline">Help Center</Link></li>
-            <li><Link to="/terms" className="hover:underline">Terms & Conditions</Link></li>
+            <li><Link to="" className="hover:underline">FAQ</Link></li>
+            <li><Link to="" className="hover:underline">Help Center</Link></li>
+            <li><Link to="" className="hover:underline">Terms & Conditions</Link></li>
           </ul>
         </div>
 
@@ -40,13 +40,13 @@ const Footer = () => {
         <div>
           <h2 className="font-semibold text-lg mb-2">Follow Us</h2>
           <div className="flex gap-4 mt-2">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <a href="" target="_blank" rel="noreferrer">
               <img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram" />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            <a href="" target="_blank" rel="noreferrer">
               <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" alt="Facebook" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <a href="" target="_blank" rel="noreferrer">
               <img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" alt="Twitter" />
             </a>
           </div>
